@@ -15,7 +15,7 @@
 }
 
 :root {
-  --colorPrimary: white;
+  --colorPrimary: rgb(210, 210, 210);
 }
 
 
@@ -42,7 +42,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-style: normal;
-  background-color: ghostwhite;
+  background-color: rgb(228, 228, 228);
 }
 
 /* line 13, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/theme-default.scss */
@@ -366,7 +366,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  background: #F2C64D;
+  background:#F0542C;
   color: #fff;
   display: inline-block;
   padding: 18px 44px;
@@ -392,8 +392,8 @@ h3 {
 /* line 47, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: transparent;
-  color: #F2C64D !important;
-  border: 1px solid #F2C64D;
+  color:#F0542C !important;
+  border: 1px solid#F0542C;
 }
 
 /* line 52, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
@@ -539,7 +539,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
 .section_title span {
-  color: #F2C64D;
+  color:#F0542C;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 18px;
@@ -1344,7 +1344,7 @@ h3 {
 .slider_area .single_slider .slider_text h4 {
   font-size: 140px;
   font-family: "Pacifico", cursive;
-  color: #F2C64D;
+  color:#F0542C;
   position: relative;
   margin-top: -80px;
 }
@@ -2268,7 +2268,7 @@ h3 {
 
 /* line 191, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
 .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading a:hover {
-  color: #F2C64D;
+  color:#F0542C;
 }
 
 /* line 198, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
@@ -3020,7 +3020,7 @@ h3 {
 /* line 9, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
 .testimonial_area .stars i {
   font-size: 13px;
-  color: #F2C64D;
+  color:#F0542C;
 }
 
 /* line 15, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
