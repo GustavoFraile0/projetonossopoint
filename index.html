@@ -4,13 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Burger</title>
+    <title>Nosso Point</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo-np.png">
     <!-- Place favicon.ico in the root directory -->
+    <!-- Chrome / Android -->
+    <meta name="theme-color" content="#000000">
+
+    <!-- Safari iOS (status bar) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Nosso Point">
+
+    <!-- Edge / Windows -->
+    <meta name="msapplication-navbutton-color" content="#000000">
+
+    <!-- GLightbox CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -136,125 +149,141 @@
     </div>
     <!-- slider_area_end -->
 
-    <div class="best_burgers_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center mb-80">
-                        <span>Burger Menu</span>
-                        <h3>Best Ever Burgers</h3>
+    <div class="best_burgers_area py-5">
+    <div class="container">
+        <!-- Título -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="section_title text-center">
+                    <span>Nosso Cardápio</span>
+                    <h3>Clique na foto para ver detalhes</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cardápio -->
+        <div class="row g-4">
+            <!-- Item 1 - Espetinho de Carne -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/espetinhos/carne.png" class="glightbox">
+                            <img src="img/espetinhos/carne.png" class="img-fluid rounded" alt="Espetinho de Carne">
+                        </a>
+                    </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Espetinho de Carne</h3>
+                        <p>Carne suculenta, temperada na medida certa e grelhada ao ponto.</p>
+                        <span>R$8</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-6 col-md-6 col-lg-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/1.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Beefy Burgers</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/2.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Burger Boys</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/3.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Burger Bizz</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
+            <!-- Item 2 - Caipirinha Clássica -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/drinks/capirinha.png" class="glightbox">
+                            <img src="img/drinks/capirinha.png" class="img-fluid rounded" alt="Caipirinha Clássica">
+                        </a>
                     </div>
-                </div>
-                <div class="col-xl-6 col-md-6 col-lg-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/4.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Crackles Burger</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/5.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Bull Burgers</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/6.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Rocket Burgers</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/7.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Smokin Burger</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_delicious d-flex align-items-center">
-                        <div class="thumb">
-                            <img src="img/burger/8.png" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Delish Burger</h3>
-                            <p>Great way to make your business appear trust and relevant.</p>
-                            <span>$5</span>
-                        </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Caipirinha Clássica</h3>
+                        <p>Tradicional bebida brasileira com limão fresco e cachaça de qualidade.</p>
+                        <span>R$15</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="iteam_links">
-                        <a class="boxed-btn5" href="Menu.html">More Items</a>
+
+            <!-- Item 3 - Espetinho de Frango -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/espetinhos/frango.png" class="glightbox">
+                            <img src="img/espetinhos/frango.png" class="img-fluid rounded" alt="Espetinho de Frango">
+                        </a>
+                    </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Espetinho de Frango</h3>
+                        <p>Frango temperado com ervas finas e grelhado até ficar douradinho.</p>
+                        <span>R$7</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 - Sex on the Beach -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/drinks/sex on the beach.png" class="glightbox">
+                            <img src="img/drinks/sex on the beach.png" class="img-fluid rounded" alt="Sex on the Beach">
+                        </a>
+                    </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Sex on the Beach</h3>
+                        <p>Mix frutado de frutas tropicais com vodka, perfeito para momentos descontraídos.</p>
+                        <span>R$18</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 - Medalhão -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/espetinhos/medalhao.png" class="glightbox">
+                            <img src="img/espetinhos/medalhao.png" class="img-fluid rounded" alt="Medalhão">
+                        </a>
+                    </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Medalhão</h3>
+                        <p>Espetinho sofisticado de carne nobre, suculento e saboroso.</p>
+                        <span>R$9</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 - Caipirinha de Morango -->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="single_delicious d-flex flex-column flex-sm-row align-items-center gap-3 p-3 rounded shadow-sm glass">
+                    <div class="thumb flex-shrink-0">
+                        <a href="img/drinks/morango.png" class="glightbox">
+                            <img src="img/drinks/morango.png" class="img-fluid rounded" alt="Caipirinha de Morango">
+                        </a>
+                    </div>
+                    <div class="info text-center text-sm-start">
+                        <h3>Caipirinha de Morango</h3>
+                        <p>Versão doce e refrescante da clássica caipirinha, com morangos frescos.</p>
+                        <span>R$20</span>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Botão More Items -->
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <a class="boxed-btn5" href="Menu.html">Mais Itens</a>
+            </div>
+        </div>
     </div>
+</div>
+
+
+    <!-- GLightbox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox',
+            width: '100%',        // largura máxima da imagem na tela
+            height: '100%',       // altura máxima da imagem na tela
+            zoomable: true,      // permite zoom dentro da lightbox
+            loop: true,          // permite navegar entre imagens em loop
+            closeOnOutsideClick: true
+        });
+    </script>
+
+
     <!-- features_room_startt -->
     <div class="Burger_President_area">
         <div class="Burger_President_here">
@@ -576,6 +605,27 @@
             </div>
         </div>
     </footer>
+    <!-- Barra fixa Liquid Glass -->
+    <div class="liquid-glass-bar"></div>
+
+    <style>
+        /* Barra fixa no bottom com efeito glass */
+        .liquid-glass-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 20px;
+            /* altura da barra */
+            backdrop-filter: blur(10px);
+            /* efeito glass */
+            -webkit-backdrop-filter: blur(10px);
+            z-index: 9999;
+            pointer-events: none;
+            /* permite clicar nos elementos abaixo */
+            transition: all 0.3s ease;
+        }
+    </style>
 
 
     <!-- JS here -->
